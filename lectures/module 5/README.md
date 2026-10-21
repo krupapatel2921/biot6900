@@ -7,7 +7,7 @@
 ## Files
 - `BIOT6900_Module5_Part3_Assignment.ipynb`: analysis notebook (runs top to bottom)
 - `pgx_classified_CYP2C19.csv`: 33 VUS with evidence and provisional calls
-- `<your report filename>.pdf`: written report
+- `Report_CYP2C19.pdf`: written report
 - `data/` is not committed (listed in `.gitignore`); it is recreated on the first run
 
 ## How to run
