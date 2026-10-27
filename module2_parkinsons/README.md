@@ -1,25 +1,28 @@
-# Module 2 Assignment 2 — Parkinson's Disease Multi-Omics Target Discovery
+\# BIOT 6900 — AI-Powered Biotech Workflows (Fall 2026)
 
-**Disease:** Parkinson's disease (PD)
-**Integration level:** gene-level (layers come from different, unmatched cohorts)
 
-## Datasets
 
-| Layer | Dataset | Source | Access |
-|---|---|---|---|
-| Genomics | GWAS Catalog, Parkinson disease (MONDO_0005180) | https://www.ebi.ac.uk/gwas/efotraits/MONDO_0005180 | Open |
-| Transcriptomics | GSE7621, substantia nigra, PD vs control (analyzed with GEO2R) | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7621 | Open |
-| Proteomics | Licker et al. 2014, *Proteomics* 14(6):784–794, PRIDE PXD000427 (supplementary table) | https://www.ebi.ac.uk/pride/archive/projects/PXD000427 | Open |
+\*\*Name:\*\* Krupa Patel · Northeastern University · Prof. Prabakaran
 
-## Files
-- `parkinsons.ipynb` — full pipeline (run with Kernel → Restart & Run All)
-- `targets_parkinsons.csv` — top 15 ranked targets
-- `data/` — gene-level tables (`pd_gwas.tsv`, `pd_rna.tsv`, `pd_protein.tsv`)
-- `data/raw/` — original downloaded files
-- `sources.txt` — data sourcing, filtering decisions, and reasoning
 
-## Pipeline
-Load → harmonize gene symbols → concordance (RNA vs protein direction) → multi-evidence score (equal weights) → rank → export
 
-## Environment
-Python 3.11 (conda environment `biot6900`), pandas, numpy
+Each module has its own README with a description, data sources,
+
+and anything that didn't work.
+
+
+
+| Module | Main files | README |
+
+|---|---|---|
+
+| 1 — Environment setup \& database queries | `module1\_setup.ipynb` | `README\_module1.md` |
+
+| 2 — Multi-omics target discovery (Parkinson's) | `module2\_parkinsons/`, `BIOT6900\_module2\_report\_krupapatel.pdf` | to be added |
+
+| 3 — Target triage with protein language models | `BIOT6900\_Module3\_Assignment.ipynb`, `targets\_parkinsons\_w3.csv` | `README\_module3.md` |
+
+| 4 — AlphaFold structural assessment | `module4\_alphafold/` | to be added |
+
+| 5 — Pharmacogenomics (CYP2C19) | `lectures/module 5/` | to be added |
+
