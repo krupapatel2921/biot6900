@@ -14,8 +14,9 @@ priors, lists the three nearest drugged proteins for each target, scores the cou
 ## Files
 - `BIOT6900_Module3_Assignment.ipynb`: full analysis (run with Kernel → Restart & Run All)
 - `targets_parkinsons_w3.csv`: re-ranked targets, the hand-off to Week 4 (structure prediction)
-- `Module3_Report_Parkinsons.pdf`: interpretation report
-- `assignments/targets_parkinsons.csv`: input, my Module 2 top 15 targets
+- `assessment report.pdf`: interpretation report (original)
+- `Module3_Report_Addendum.pdf`: report addendum, added in response to the rubric-check announcement
+- `assignments/targets_parkinsons.csv`: input, my Module 2 top 15 targets (same file as `module2_parkinsons/targets_parkinsons.csv`)
 
 ## How to rerun
 1. Activate the environment: `conda activate biot6900` (Python, pandas, numpy, scikit-learn, matplotlib).
@@ -31,9 +32,12 @@ priors, lists the three nearest drugged proteins for each target, scores the cou
 - **Leakage guard:** targets removed from the training panel before fitting: 2 (SH3GL2, SNCA).
 - **Validation (family split):** AUROC 0.754, average precision 0.555
   (random split: 0.848 / 0.731; chance AP 0.334).
-- **Blending weight:** w = 0.6 (Module 2 evidence vs. best-modality tractability); justification in the report, Section 1.
+- **Blending weight:** w = 0.6 (Module 2 evidence vs. best-modality tractability); justification in the addendum.
 - **Variant numbering:** APOE variants use UniProt precursor numbering (R176C = mature R158C, ε2; C130R = mature C112R, ε4).
 - **Data pack:** real data; main model esmc_300m, baseline facebook/esm2_t12_35M_UR50D.
 
 ## What didn't work / issues
-None. The notebook runs cleanly top to bottom with Kernel → Restart & Run All.
+- **Input file was not committed at submission.** The notebook ran cleanly on my machine, but `assignments/targets_parkinsons.csv` was missing from the repo, so a grader could not rerun the notebook. It was added on October 28, 2026; the notebook itself is unchanged.
+- **README pointed to the wrong report file name and to a weight justification the report did not contain.** Both are corrected here; the justification and other missing items are in `Module3_Report_Addendum.pdf`.
+
+This README was updated on October 28, 2026 in response to the rubric-check announcement. The notebook, output CSV and original report have not been changed.
