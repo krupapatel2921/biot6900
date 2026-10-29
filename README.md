@@ -4,10 +4,13 @@
 
 Each module has its own README with a description, data sources, and anything that didn't work.
 
-| Module | Main files | README |
-|---|---|---|
-| 1 — Environment setup & database queries | `module1_setup.ipynb` | `README_module1.md` |
-| 2 — Multi-omics target discovery (Parkinson's) | `module2_parkinsons/` (Assignment 2, PD); `BIOT6900_module2_report_krupapatel.pdf` (Part 3 starter, AD) | `module2_parkinsons/README.md` |
-| 3 — Target triage with protein language models | `BIOT6900_Module3_Assignment.ipynb`, `targets_parkinsons_w3.csv` | `README_module3.md` |
-| 4 — AlphaFold structural assessment | `module4_alphafold/` | to be added |
-| 5 — Pharmacogenomics (CYP2C19) | `lectures/module 5/` | to be added |
+|Module|Main files|README|
+|-|-|-|
+|1 — Environment setup \& database queries|`module1\_setup.ipynb`|`README\_module1.md`|
+|2 — Multi-omics target discovery (Parkinson's)|`module2\_parkinsons/` (Assignment 2, PD); `BIOT6900\_module2\_report\_krupapatel.pdf` (Part 3 starter, AD)|`module2\_parkinsons/README.md`|
+|3 — Target triage with protein language models|`BIOT6900\_Module3\_Assignment.ipynb`, `targets\_parkinsons\_w3.csv`|`README\_module3.md`|
+|4 — AlphaFold structural assessment|`module4\_alphafold/`|to be added|
+|5 — Pharmacogenomics (CYP2C19)|`lectures/module 5/`|to be added|
+
+| 6 — Polygenic risk score portability (Parkinson's) | `module6\_parkinson/` | `module6\_parkinson/README.md` |
+
