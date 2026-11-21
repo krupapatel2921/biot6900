@@ -1,0 +1,20 @@
+metric,value
+artifact,scanner_tag
+artifact injected into,tumour
+artifact area (% of tile),4.3%
+clean model — val accuracy,0.965
+clean model — test accuracy,0.955
+"clean model — test acc, stain shift",0.942
+"clean model — test acc, darker scan",0.947
+confounded model — val accuracy (poisoned val),1.000
+confounded model — clean test accuracy,0.658
+confounded — tumour recall WITH artifact,1.000
+confounded — tumour recall WITHOUT artifact,0.317
+clean — tumour recall WITH artifact,0.980
+clean — tumour recall WITHOUT artifact,0.943
+flip rate — confounded,97.0%
+flip rate — clean control,12.0%
+confounded — mean Grad-CAM share on artifact,13%
+clean — mean Grad-CAM share on artifact,1%
+confounded — mean occlusion share on artifact,69%
+clean — mean occlusion share on artifact,11%
